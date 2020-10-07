@@ -1,0 +1,8 @@
+Error[e16]: Segment XDATA_Z (size: 0x5dca align: 0) is too long for segment definition. At least 0x414b more bytes needed. The problem occurred while processing the segment placement command "-Z(XDATA)XDATA_Z,XDATA_I=_XDATA_START-_XDATA_END", where at the moment of placement the available memory ranges were "XDATA:281-1eff"
+   Reserved ranges relevant to this placement:
+   XDATA:1-280          XSTACK
+   XDATA:281-1eff       XDATA_Z
+   BIT:0-7              BREG
+   BIT:80-97            SFR_AN
+   BIT:a0-af            SFR_AN
+   BIT:b8-c7            SFR_AN
